@@ -7,8 +7,8 @@ $post_body = http_build_query(array(
 'CardNum'    => '4111111111111111',  //Credit Card Number
 'ExpDate'    => '1222',              //Must Be Future Date
 'NameOnCard' => 'Smith',
-'Amount'     => 10.00,
-'CVNum'      =>'789',
+'Amount'     => '10.00',
+'CVNum'      => '789',
 'Zip'        => '12345',
 'PNRef'      => '',                  //Sending the PNRef name pair is required.
 ));
